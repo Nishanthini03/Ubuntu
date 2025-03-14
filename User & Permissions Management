@@ -1,0 +1,5 @@
+whoami                             # Show current user  
+sudo adduser newuser               # Add a new user  
+sudo userdel -r newuser            # Delete a user  
+chmod +x script.sh                 # Make a script executable  
+sudo chown user:group file.txt     # Change file owner  
