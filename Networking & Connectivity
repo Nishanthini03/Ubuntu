@@ -1,0 +1,4 @@
+ip a                               # Show IP address  
+ping google.com                    # Check internet connection  
+netstat -tulnp                     # List open ports  
+curl ifconfig.me                   # Show public IP  
