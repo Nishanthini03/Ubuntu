@@ -1,0 +1,16 @@
+sudo apt update && sudo apt upgrade -y
+#Updates package lists and upgrades installed packages. 
+
+uname -a             # Shows system info  
+df -h               # Disk usage  
+free -m             # RAM usage  
+top                 # Process monitoring  
+htop                # Advanced process monitoring (Install with: sudo apt install htop)  
+
+mkdir my_folder                  # Create a directory  
+cd my_folder                      # Change directory  
+touch myfile.txt                  # Create a file  
+rm myfile.txt                     # Delete a file  
+rm -r my_folder                   # Delete a folder  
+mv file1.txt folder/               # Move file  
+cp file1.txt file2.txt             # Copy file  
