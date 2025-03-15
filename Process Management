@@ -1,0 +1,3 @@
+ps aux                             # List all running processes  
+kill PID                           # Kill a process by PID  
+pkill -9 process_name              # Kill a process by name  
