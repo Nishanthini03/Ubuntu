@@ -1,0 +1,5 @@
+lsblk                     # Show block devices and partitions  
+df -h                     # Show disk space usage  
+du -sh folder/            # Get the size of a folder  
+sudo fdisk -l             # Show all disks and partitions  
+sudo mount /dev/sdb1 /mnt # Mount a USB drive (replace `/dev/sdb1` with your drive)  
