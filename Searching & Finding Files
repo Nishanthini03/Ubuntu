@@ -1,0 +1,4 @@
+find / -name "file.txt" 2>/dev/null  # Find a file anywhere (ignores permission errors)  
+find . -type f -name "*.log"         # Find all .log files in the current directory  
+grep "error" logfile.txt              # Search for "error" inside a file  
+grep -r "TODO" /home/user/            # Search recursively in a directory  
