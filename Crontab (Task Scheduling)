@@ -1,0 +1,4 @@
+crontab -e                           # Edit cron jobs  
+crontab -l                           # List current cron jobs  
+# Example: Run a script every day at midnight  
+0 0 * * * /home/user/script.sh  
