@@ -1,0 +1,6 @@
+tar -cvf archive.tar folder/          # Create a tar archive  
+tar -xvf archive.tar                  # Extract a tar archive  
+tar -czvf archive.tar.gz folder/      # Create a compressed tar archive  
+tar -xzvf archive.tar.gz              # Extract a compressed tar archive  
+zip -r archive.zip folder/            # Create a ZIP file  
+unzip archive.zip                     # Extract a ZIP file  
