@@ -1,0 +1,6 @@
+systemctl list-units --type=service  # List all active services  
+sudo systemctl start apache2         # Start a service (e.g., Apache)  
+sudo systemctl stop apache2          # Stop a service  
+sudo systemctl restart apache2       # Restart a service  
+sudo systemctl enable apache2        # Enable service to start on boot  
+sudo systemctl disable apache2       # Disable service from starting on boot  
